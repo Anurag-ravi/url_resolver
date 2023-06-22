@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/insta_backend', (req, res) => {
-    res.json({url: 'https://insta.anuragravi.tech'});
+    res.json({url: 'http://192.168.1.38'});
 });
 
 app.get('/cam-cat', (req, res) => {
