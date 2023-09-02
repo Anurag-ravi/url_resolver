@@ -6,6 +6,7 @@ const port = 5000;
 app.use(cors());
 
 app.get('/', (req, res) => {
+    console.log(new Date().toLocaleString('en-US', {timeZone: 'Asia/Kolkata'}));
     res.send('Hello World!');
 });
 
