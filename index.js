@@ -18,6 +18,10 @@ app.get('/cam-cat', (req, res) => {
     res.json({url: 'https://cam-cat.anuragravi.tech'});
 });
 
+app.get('/splitr', (req, res) => {
+    res.json({url: 'https://splittr-backend.onrender.com'});
+});
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
 });
